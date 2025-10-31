@@ -18,10 +18,10 @@ const Service = () => {
       <div className="pt-[100px] bg-gradient-to-b from-gray-950 to-gray-900 text-white min-h-screen">
         {/* Tiêu đề trang */}
         <section className="text-center px-6 sm:px-20 py-16">
-          <h2 className="text-4xl font-bold text-cyan-400 mb-6">
+          <h2 data-aos="zoom-in-up" className="text-4xl font-bold text-cyan-400 mb-6">
             Dịch Vụ Của Chúng Tôi
           </h2>
-          <p className="max-w-3xl mx-auto text-gray-300 leading-relaxed">
+          <p data-aos="fade-up-left" className="max-w-3xl mx-auto text-gray-300 leading-relaxed">
             Tại{" "}
             <span className="text-cyan-400 font-semibold">
               Hung Thao Sport 2
@@ -63,6 +63,7 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
           ].map((service, index) => (
             <div
               key={index}
+              data-aos="zoom-in-up"
               className="bg-gray-800/60 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
             >
               <img
@@ -81,7 +82,7 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
         </section>
 
         {/* Phần dịch vụ – Các gói tập */}
-        <h4 className="text-xl font-bold text-cyan-400 text-center mb-10 mt-5">
+        <h4 data-aos="fade-up" className="text-xl font-bold text-cyan-400 text-center mb-10 mt-5">
           {mounted &&
             "Các Gói Dịch Vụ Của Chúng Tôi".split(/(\s)/).map((char, index) => {
               const isSpace = char === " ";
@@ -100,7 +101,7 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
             })}
         </h4>
 
-        <div className="px-4 sm:px-8 lg:px-16">
+        <div data-aos="zoom-out-left" className="px-4 sm:px-8 lg:px-16">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-4">
             {/* Card 1 */}
             <div className="electric-card">
@@ -281,14 +282,14 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
 
         {/* Phần CTA – Kêu gọi hành động */}
         <section className="text-center py-16 px-6 sm:px-20 bg-gray-900">
-          <h3 className="text-3xl font-bold text-cyan-400 mb-4">
+          <h3 data-aos="zoom-in-up" className="text-3xl font-bold text-cyan-400 mb-4">
             Sẵn Sàng Bắt Đầu Hành Trình Của Bạn?
           </h3>
-          <p className="text-gray-300 max-w-2xl mx-auto mb-8">
+          <p data-aos="fade-up" className="text-gray-300 max-w-2xl mx-auto mb-8">
             Đăng ký ngay hôm nay để nhận tư vấn miễn phí và bắt đầu hành trình
             chinh phục mục tiêu thể hình của bạn.
           </p>
-          <button className="px-10 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-lg font-semibold rounded-lg shadow-md hover:from-cyan-400 hover:to-blue-400 hover:shadow-lg transition-all duration-300">
+          <button data-aos="fade-up" className="px-10 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-lg font-semibold rounded-lg shadow-md hover:from-cyan-400 hover:to-blue-400 hover:shadow-lg transition-all duration-300">
             Đăng Ký Ngay
           </button>
         </section>

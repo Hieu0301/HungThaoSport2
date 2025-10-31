@@ -30,10 +30,10 @@ const About = () => {
       <div className="pt-[100px] bg-gray-950 text-white min-h-screen">
         {/* Giới thiệu chung */}
         <section className="text-center px-6 sm:px-20 py-16">
-          <h2 className="text-4xl font-bold text-cyan-400 mb-6">
+          <h2 data-aos="zoom-in-up" className="text-4xl font-bold text-cyan-400 mb-6">
             Về Chúng Tôi
           </h2>
-          <div className="max-w-3xl mx-auto text-gray-300 leading-relaxed">
+          <div data-aos="fade-up-left" className="max-w-3xl mx-auto text-gray-300 leading-relaxed">
             <span className="font-semibold text-cyan-400 font-semibold">
               Hung Thao Sport 2
             </span>{" "}
@@ -52,7 +52,7 @@ const About = () => {
 
         {/* Hình ảnh + nội dung chia cột */}
         <section className="grid md:grid-cols-2 gap-10 items-center px-6 sm:px-20 py-10">
-          <div className="rounded-2xl overflow-hidden shadow-lg">
+          <div data-aos="zoom-in" className="rounded-2xl overflow-hidden shadow-lg">
             <Slider {...settings}>
               {images.map((img, index) => (
                 <div key={index}>
@@ -66,10 +66,10 @@ const About = () => {
             </Slider>
           </div>
           <div>
-            <h3 className="text-3xl font-bold text-cyan-400 mb-4">
+            <h3 data-aos="zoom-in-up" className="text-3xl font-bold text-cyan-400 mb-4">
               Sứ Mệnh Của Chúng Tôi
             </h3>
-            <p className="text-gray-300 leading-relaxed">
+            <p data-aos="flip-right" className="text-gray-300 leading-relaxed">
               Chúng tôi hướng tới việc xây dựng một môi trường tập luyện chuyên
               nghiệp, thân thiện và tràn đầy năng lượng. Tại đây, bạn có thể
               khơi dậy tinh thần thể thao, học cách kiên trì và không ngừng thử
@@ -88,10 +88,10 @@ const About = () => {
 
         {/* Tầm nhìn */}
         <section className="text-center py-16 px-6 sm:px-20 bg-gray-950">
-          <h3 className="text-3xl font-bold text-cyan-400 mb-6">
+          <h3 data-aos="zoom-in-up" className="text-3xl font-bold text-cyan-400 mb-6">
             Tầm Nhìn & Giá Trị
           </h3>
-          <p className="max-w-4xl mx-auto text-gray-300 leading-relaxed">
+          <p data-aos="fade-left" className="max-w-4xl mx-auto text-gray-300 leading-relaxed">
             Chúng tôi mong muốn xây dựng một phòng gym thân thiện và gần gũi,
             nơi mọi người — dù là người mới bắt đầu hay đã tập lâu năm — đều có
             thể thoải mái rèn luyện và cải thiện sức khỏe của mình. Với không
@@ -105,12 +105,13 @@ const About = () => {
             <img
               src={coach} // ảnh chủ phòng (import ở trên)
               alt="Chủ phòng gym"
+              data-aos="zoom-out-right"
               className="w-24 h-24 rounded-full object-cover border-2 border-cyan-500 shadow-md mb-4 mx-auto"
             />
-            <p className="text-xl italic text-gray-200 max-w-2xl">
+            <p data-aos="flip-up" className="text-xl italic text-gray-200 max-w-2xl">
               “Đừng để lý do ngăn bạn trở nên mạnh mẽ hơn mỗi ngày.”
             </p>
-            <span className="mt-2 text-cyan-400 font-semibold">
+            <span data-aos="zoom-in-up" className="mt-2 text-cyan-400 font-semibold">
               – Phạm Đình Tiến, Chủ phòng –
             </span>
           </div>

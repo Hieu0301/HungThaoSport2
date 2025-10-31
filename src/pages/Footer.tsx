@@ -9,8 +9,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 text-center gap-x-20 sm:text-left px-6">
         {/* Cột 1 */}
 
-        <div>
-          <div>
+      
+          <div data-aos="zoom-out-left">
             <span className="font-semibold text-cyan-400">Địa chỉ:</span>
             <br />
             <div className="flex items-start text-gray-300 mt-2 leading-tight">
@@ -20,10 +20,10 @@ const Footer = () => {
               </span>
             </div>
           </div>
-        </div>
+        
 
         {/* Cột 2 */}
-        <div className="flex flex-col items-center sm:items-start justify-center gap-2">
+        <div data-aos="zoom-out-left" className="flex flex-col items-center sm:items-start justify-center gap-2">
           <div className="flex flex-col items-center sm:items-start mt-1">
             <span className="font-semibold text-cyan-400 mb-1">Liên hệ:</span>
             <div className="flex items-center">
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
 
         {/* Cột 3 */}
-        <div className="flex flex-col items-center sm:items-start justify-center gap-1">
+        <div data-aos="zoom-out-left" className="flex flex-col items-center sm:items-start justify-center gap-1">
           <span className="font-semibold text-cyan-400">Giờ hoạt động:</span>
           <div className="text-gray-300">4:30 AM – 20:30 PM (T2 - T7)</div>
           <div className="text-gray-300">4:30 AM – 9:30 AM (CN)</div>
@@ -54,7 +54,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center text-gray-500 text-xs mt-6">
-        © 2025 Gym Center. All rights reserved.
+        © 2025 Gym Hung Thao Sport 2. All rights reserved.
       </div>
     </footer>
   );

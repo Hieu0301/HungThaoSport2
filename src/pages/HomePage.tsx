@@ -8,11 +8,11 @@ const HomePage = () => {
       <Nav />
       <Banner />
 
-      <section className="py-20 px-6 text-center bg-gray-900">
-        <h2 className="text-4xl font-bold text-cyan-400 mb-4">
+      <section  className=" py-20 px-6 text-center bg-gray-900">
+        <h2 data-aos="fade-up" className="text-4xl font-bold text-cyan-400 mb-4">
           Sức Mạnh Của Bạn - Sứ Mệnh Của Chúng Tôi
         </h2>
-        <p className="max-w-3xl mx-auto text-gray-300">
+        <p data-aos="fade-left" className="max-w-3xl mx-auto text-gray-300">
           Tại{" "}
           <span className="text-cyan-400 font-semibold">Hung Thao Sport 2</span>
           , chúng tôi tin rằng mỗi người đều có tiềm năng vượt qua giới hạn.
@@ -22,10 +22,10 @@ const HomePage = () => {
       </section>
 
       <section className="py-20 px-6 bg-gradient-to-r from-gray-950 to-gray-800 text-center">
-        <h2 className="text-4xl font-bold text-cyan-400 mb-12">
+        <h2 data-aos="zoom-in-up" className="text-4xl font-bold text-cyan-400 mb-12">
           Khám Phá Cùng Chúng Tôi
         </h2>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div data-aos="zoom-in-left" className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {[
             {
               title: "Về Chúng Tôi",
@@ -125,8 +125,8 @@ const HomePage = () => {
 
       {/* Contact Section */}
       <section className="py-20 px-6 sm:px-20 bg-gray-900 text-center">
-        <h2 className="text-4xl font-bold text-cyan-400 mb-6">Liên Hệ</h2>
-        <p className="max-w-2xl mx-auto text-gray-300 mb-8">
+        <h2 data-aos="zoom-in-up" className="text-4xl font-bold text-cyan-400 mb-6">Liên Hệ</h2>
+        <p data-aos="flip-left" className="max-w-2xl mx-auto text-gray-300 mb-8">
           Hãy đến với chúng tôi để bắt đầu hành trình chinh phục cơ thể lý tưởng
           của bạn! Tại Hung Thao Sport 2, mỗi buổi tập là một bước tiến gần hơn
           tới sức khỏe bền bỉ, tinh thần sảng khoái và vóc dáng mơ ước. Cùng
@@ -135,6 +135,7 @@ const HomePage = () => {
         </p>
 
         <a
+        data-aos="zoom-in-up"
           href="tel:+84937336258"
           className="electric-card-button hover:scale-105 inline-block mt-8 px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-xl font-semibold rounded-lg shadow-md hover:from-cyan-400 hover:to-blue-400 hover:shadow-lg transition-all duration-300"
         >
