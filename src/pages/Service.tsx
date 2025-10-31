@@ -104,7 +104,7 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-4">
             {/* Card 1 */}
             <div className="electric-card">
-              <svg className="electric-border-svg">
+              {/* <svg className="electric-border-svg">
                 <defs>
                   <linearGradient
                     id="electricGradient"
@@ -119,6 +119,45 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
                   </linearGradient>
                 </defs>
                 <rect width="100%" height="100%" rx="16" ry="16" />
+              </svg> */}
+
+              <svg
+                className="electric-border-svg"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <linearGradient
+                    id="electricGradient"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%"
+                  >
+                    <stop offset="0%" stopColor="#00ffff" />
+                    <stop offset="100%" stopColor="#0077ff" />
+                  </linearGradient>
+                </defs>
+
+                <rect
+                  width="100%"
+                  height="100%"
+                  rx="16"
+                  ry="16"
+                  fill="none"
+                  stroke="url(#electricGradient)"
+                  strokeWidth="3"
+                  strokeDasharray="400"
+                  strokeDashoffset="400"
+                >
+                  {/* Hiệu ứng chạy liên tục, mượt tuyệt đối */}
+                  <animate
+                    attributeName="stroke-dashoffset"
+                    from="400"
+                    to="-400"
+                    dur="3s"
+                    repeatCount="indefinite"
+                  />
+                </rect>
               </svg>
 
               <h4 className="text-xl font-semibold text-cyan-400 mb-3">
@@ -132,21 +171,43 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
 
             {/* Card 2 */}
             <div className="electric-card">
-              <svg className="electric-border-svg">
+              <svg
+                className="electric-border-svg"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <defs>
                   <linearGradient
-                    id="electricGradient2"
+                    id="electricGradient"
                     x1="0%"
                     y1="0%"
                     x2="100%"
-                    y2="100%"
+                    y2="0%"
                   >
                     <stop offset="0%" stopColor="#00ffff" />
-                    <stop offset="50%" stopColor="#0077ff" />
-                    <stop offset="100%" stopColor="#00ffff" />
+                    <stop offset="100%" stopColor="#0077ff" />
                   </linearGradient>
                 </defs>
-                <rect width="100%" height="100%" rx="16" ry="16" />
+
+                <rect
+                  width="100%"
+                  height="100%"
+                  rx="16"
+                  ry="16"
+                  fill="none"
+                  stroke="url(#electricGradient)"
+                  strokeWidth="3"
+                  strokeDasharray="400"
+                  strokeDashoffset="400"
+                >
+                  {/* Hiệu ứng chạy liên tục, mượt tuyệt đối */}
+                  <animate
+                    attributeName="stroke-dashoffset"
+                    from="400"
+                    to="-400"
+                    dur="3s"
+                    repeatCount="indefinite"
+                  />
+                </rect>
               </svg>
 
               <h4 className="text-xl font-semibold text-cyan-400 mb-3">
@@ -160,23 +221,44 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
 
             {/* Card 3 */}
             <div className="electric-card">
-              <svg className="electric-border-svg">
+             <svg
+                className="electric-border-svg"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <defs>
                   <linearGradient
-                    id="electricGradient2"
+                    id="electricGradient"
                     x1="0%"
                     y1="0%"
                     x2="100%"
-                    y2="100%"
+                    y2="0%"
                   >
                     <stop offset="0%" stopColor="#00ffff" />
-                    <stop offset="50%" stopColor="#0077ff" />
-                    <stop offset="100%" stopColor="#00ffff" />
+                    <stop offset="100%" stopColor="#0077ff" />
                   </linearGradient>
                 </defs>
-                <rect width="100%" height="100%" rx="16" ry="16" />
-              </svg>
 
+                <rect
+                  width="100%"
+                  height="100%"
+                  rx="16"
+                  ry="16"
+                  fill="none"
+                  stroke="url(#electricGradient)"
+                  strokeWidth="3"
+                  strokeDasharray="400"
+                  strokeDashoffset="400"
+                >
+                  {/* Hiệu ứng chạy liên tục, mượt tuyệt đối */}
+                  <animate
+                    attributeName="stroke-dashoffset"
+                    from="400"
+                    to="-400"
+                    dur="3s"
+                    repeatCount="indefinite"
+                  />
+                </rect>
+              </svg>
               <h4 className="text-xl font-semibold text-cyan-400 mb-3">
                 Các ưu đãi khác
               </h4>
