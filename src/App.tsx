@@ -1,6 +1,6 @@
 import { Toaster } from "sonner";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 import HomePage from "./pages/HomePage";
 import About from "./pages/About";
