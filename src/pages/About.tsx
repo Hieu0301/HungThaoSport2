@@ -1,4 +1,4 @@
-import React from "react";
+
 import Nav from "./Nav";
 import gym2 from "../assets/gym-2.jpg";
 import gym1 from "../assets/gym-1.jpg";

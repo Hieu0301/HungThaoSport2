@@ -1,4 +1,4 @@
-import React from "react";
+
 import { CiMail } from "react-icons/ci";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { CiFacebook } from "react-icons/ci";
