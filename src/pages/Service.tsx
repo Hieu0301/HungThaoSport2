@@ -101,7 +101,7 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
         </h4>
 
         <div className="px-4 sm:px-8 lg:px-16">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-4">
             {/* Card 1 */}
             <div className="electric-card">
               <svg className="electric-border-svg">
@@ -122,16 +122,12 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
               </svg>
 
               <h4 className="text-xl font-semibold text-cyan-400 mb-3">
-                Gói tập cơ
+                Gói tập
               </h4>
               <p className="text-gray-300 mb-2">
-                Tập tất cả các máy cơ trong phòng
+                Tập tất hết tất cả các loại máy trong phòng
               </p>
-              <p className="text-lg font-bold text-white mb-2">220k / tháng</p>
-               <p className="text-gray-400 mb-2">Đóng 3 tháng: <span className="text-cyan-400">giảm 5%</span></p>
-              <p className="text-gray-400 mb-2">Đóng 6 tháng: <span className="text-cyan-400">giảm 15%</span></p>
-              <p className="text-gray-400">Đóng năm: <span className="text-cyan-400">giảm 20%</span></p>
-            
+              <p className="text-lg font-bold text-white mb-2">270k / tháng</p>
             </div>
 
             {/* Card 2 */}
@@ -154,15 +150,49 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
               </svg>
 
               <h4 className="text-xl font-semibold text-cyan-400 mb-3">
-                Gói tập máy
+                Ưu đãi với học sinh - sinh viên
+              </h4>
+              {/* <p className="text-gray-300 mb-2">
+                Ưu đãi đặc biệt với sinh viên
+              </p> */}
+              <p className="text-lg font-bold text-white mb-2">Giảm 10%</p>
+            </div>
+
+            {/* Card 3 */}
+            <div className="electric-card">
+              <svg className="electric-border-svg">
+                <defs>
+                  <linearGradient
+                    id="electricGradient2"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="100%"
+                  >
+                    <stop offset="0%" stopColor="#00ffff" />
+                    <stop offset="50%" stopColor="#0077ff" />
+                    <stop offset="100%" stopColor="#00ffff" />
+                  </linearGradient>
+                </defs>
+                <rect width="100%" height="100%" rx="16" ry="16" />
+              </svg>
+
+              <h4 className="text-xl font-semibold text-cyan-400 mb-3">
+                Các ưu đãi khác
               </h4>
               <p className="text-gray-300 mb-2">
-                Tập tất cả các thiết bị trong phòng
+                Ưu đãi với những hội viên đóng theo quý hoặc năm
               </p>
-              <p className="text-lg font-bold text-white mb-2">250k / tháng</p>
-              <p className="text-gray-400 mb-2">Đóng 3 tháng: <span className="text-cyan-400">giảm 5%</span></p>
-              <p className="text-gray-400 mb-2">Đóng 6 tháng: <span className="text-cyan-400">giảm 15%</span></p>
-              <p className="text-gray-400">Đóng năm: <span className="text-cyan-400">giảm 20%</span></p>
+
+              <p className="text-gray-400 mb-2">
+                Đóng 3 tháng: <span className="text-cyan-400">giảm 5%</span>
+              </p>
+              <p className="text-gray-400 mb-2">
+                Đóng 6 tháng: <span className="text-cyan-400">giảm 15%</span>
+              </p>
+              <p className="text-gray-400">
+                Đóng năm: <span className="text-cyan-400">giảm 20%</span>
+              </p>
             </div>
           </div>
         </div>

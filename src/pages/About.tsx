@@ -38,7 +38,7 @@ const About = () => {
               Hung Thao Sport 2
             </span>{" "}
             <p>
-              là trung tâm thể hình được thành lập từ năm 2017, luôn giữ vững mục
+              là trung tâm thể hình được thành lập từ năm 2015, luôn giữ vững mục
             tiêu mang đến một không gian tập luyện chuyên nghiệp nhưng vẫn bình
             dân và gần gũi với mọi người. Trải qua nhiều năm hoạt động, chúng
             tôi không ngừng nâng cấp hệ thống máy tập hiện đại, mở rộng không
