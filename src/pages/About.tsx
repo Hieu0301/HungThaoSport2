@@ -45,7 +45,7 @@ const About = () => {
             gian rộng rãi – thoáng mát, tạo cảm giác thoải mái cho hội viên
             trong mỗi buổi tập. 
             </p>
-            <p>Tại đây, bạn sẽ được hướng dẫn bởi đội ngũ huấn luyện viên giàu kinh nghiệm, luôn sẵn sàng đồng hành để giúp bạn đạt được mục tiêu sức khỏe và hình thể lý tưởng. Môi trường tập luyện tại Hung Thao Sport 2 luôn vui vẻ, thân thiện, với một cộng đồng yêu thể hình năng động và ông chủ phòng vui tính, hòa đồng, mang lại không khí tích cực mỗi ngày.</p>
+            <p>Tại đây, bạn sẽ được hướng dẫn bởi huấn luyện viên giàu kinh nghiệm, luôn sẵn sàng đồng hành để giúp bạn đạt được mục tiêu sức khỏe và hình thể lý tưởng. Môi trường tập luyện tại Hung Thao Sport 2 luôn vui vẻ, thân thiện, với một cộng đồng yêu thể hình năng động và ông chủ phòng vui tính, hòa đồng, mang lại không khí tích cực mỗi ngày.</p>
           </div>
           
         </section>
@@ -76,12 +76,7 @@ const About = () => {
               thách giới hạn của chính mình. Mỗi bước tiến dù nhỏ cũng là minh
               chứng cho nỗ lực và sự thay đổi tích cực của bạn. <br />
               <br />
-              Tại{" "}
-              <span className="text-cyan-400 font-semibold">
-                Hung Thao Sport 2
-              </span>
-              , bạn không chỉ tập luyện — bạn còn xây dựng lối sống khỏe mạnh,
-              tích cực và đầy năng lượng.
+              Tại <span className="text-cyan-400 font-semibold">Hung Thao Sport 2</span>, mỗi buổi tập không chỉ là hành trình chinh phục bản thân mà còn là cách bạn xây dựng cuộc sống tích cực và bứt phá hơn mỗi ngày.
             </p>
           </div>
         </section>

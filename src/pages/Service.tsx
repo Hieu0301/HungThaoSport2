@@ -18,17 +18,24 @@ const Service = () => {
       <div className="pt-[100px] bg-gradient-to-b from-gray-950 to-gray-900 text-white min-h-screen">
         {/* Tiêu đề trang */}
         <section className="text-center px-6 sm:px-20 py-16">
-          <h2 data-aos="zoom-in-up" className="text-4xl font-bold text-cyan-400 mb-6">
+          <h2
+            data-aos="zoom-in-up"
+            className="text-4xl font-bold text-cyan-400 mb-6"
+          >
             Dịch Vụ Của Chúng Tôi
           </h2>
-          <p data-aos="fade-up-left" className="max-w-3xl mx-auto text-gray-300 leading-relaxed">
+          <p
+            data-aos="fade-up-left"
+            className="max-w-3xl mx-auto text-gray-300 leading-relaxed"
+          >
             Tại{" "}
             <span className="text-cyan-400 font-semibold">
               Hung Thao Sport 2
             </span>
-            , chúng tôi mang đến các dịch vụ huấn luyện chuyên nghiệp, không
-            gian tập hiện đại và các chương trình phù hợp với mọi mục tiêu thể
-            hình của bạn.
+            , Sau hơn 10 năm hoạt động, chúng tôi vẫn luôn nỗ lực mang đến một
+            môi trường tập luyện thoải mái, thân thiện, nơi mỗi học viên có thể
+            rèn luyện theo nhịp độ riêng của mình, duy trì lối sống khỏe mạnh và
+            tràn đầy năng lượng mỗi ngày.
           </p>
         </section>
 
@@ -46,17 +53,17 @@ Mỗi buổi tập trở thành trải nghiệm cá nhân hóa, giúp bạn ti�
             },
 
             {
-              title: "Phòng Tập Hiện Đại",
-              desc: `Trang bị máy móc hiện đại, tối tân, phục vụ đầy đủ mọi nhu cầu tập luyện.
-Không gian rộng rãi, thoáng mát, mang lại cảm giác thoải mái tối đa khi luyện tập.
-Tiện nghi đầy đủ, từ phòng thay đồ sạch sẽ đến khu vực nghỉ ngơi thư giãn.
-Ánh sáng và thông gió tự nhiên giúp cơ thể luôn tràn đầy năng lượng.
-Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện hiệu quả và an toàn.`,
+              title: "Phòng Tập Tiện Nghi",
+              desc: `Không gian tập rộng rãi, thoáng mát, mang lại cảm giác thoải mái trong mỗi buổi luyện tập.
+Trang bị đầy đủ máy móc chất lượng, được bảo dưỡng thường xuyên để đảm bảo hiệu suất và an toàn.
+Tiện nghi chu đáo với phòng thay đồ sạch sẽ, khu vực nghỉ ngơi thư giãn giúp bạn phục hồi tốt hơn.
+Ánh sáng và thông gió tự nhiên mang lại bầu không khí dễ chịu, tràn đầy năng lượng.
+Mọi khu vực được bố trí khoa học, hỗ trợ bạn rèn luyện hiệu quả và tự tin.`,
               img: gym6,
             },
 
             {
-              title: "Môi Trường Năng Động & Thân Thiện",
+              title: "Môi Trường Năng Động",
               desc: "Dù là người mới, bạn sẽ luôn được đồng hành và hướng dẫn tận tình tại Hung Thao Sport 2. Chúng tôi đảm bảo bạn tự tin làm quen với mọi thiết bị và bài tập, để mỗi buổi luyện tập đều trở nên thú vị và hiệu quả.",
               img: image, // đây là import hình ảnh mới
             },
@@ -64,25 +71,34 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
             <div
               key={index}
               data-aos="zoom-in-up"
-              className="bg-gray-800/60 rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300"
+              className="bg-gray-800/60 rounded-xl shadow-lg overflow-hidden 
+hover:scale-105 hover:shadow-cyan-500/30 transition-all duration-300"
             >
               <img
                 src={service.img}
                 alt={service.title}
-                className="w-150 h-100 object-cover object-[center_30%]"
+                className="w-150 h-100 object-cover object-[center_30%] px-3 py-3 rounded-2xl"
               />
               <div className="p-6 text-center">
                 <h3 className="text-2xl font-semibold text-cyan-400 mb-3">
                   {service.title}
                 </h3>
-                <p className="text-gray-300">{service.desc}</p>
+                <p className="text-gray-300 text-left">{service.desc}</p>
               </div>
             </div>
+
+
+
+
           ))}
         </section>
+        
 
         {/* Phần dịch vụ – Các gói tập */}
-        <h4 data-aos="fade-up" className="text-xl font-bold text-cyan-400 text-center mb-10 mt-5">
+        <h4
+          data-aos="fade-up"
+          className="text-xl font-mono font-bold text-cyan-400 text-center mb-10 mt-5 px-2"
+        >
           {mounted &&
             "Các Gói Dịch Vụ Của Chúng Tôi".split(/(\s)/).map((char, index) => {
               const isSpace = char === " ";
@@ -162,11 +178,11 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
               </svg>
 
               <h4 className="text-xl font-semibold text-cyan-400 mb-3">
-                Gói tập
+                Gói Tập Tháng
               </h4>
               <p className="text-gray-300 mb-2">
-                Tập tất hết tất cả các loại máy trong phòng
-              </p>
+  Phù hợp cho mọi đối tượng – giúp bạn duy trì sức khỏe, cải thiện vóc dáng và tinh thần mỗi ngày.
+</p>
               <p className="text-lg font-bold text-white mb-2">270k / tháng</p>
             </div>
 
@@ -214,15 +230,16 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
               <h4 className="text-xl font-semibold text-cyan-400 mb-3">
                 Ưu đãi với học sinh - sinh viên
               </h4>
-              {/* <p className="text-gray-300 mb-2">
-                Ưu đãi đặc biệt với sinh viên
-              </p> */}
+              <p className="text-gray-300 mb-2">
+  Hỗ trợ học sinh, sinh viên với chính sách giảm giá thân thiện và linh hoạt.
+</p>
+
               <p className="text-lg font-bold text-white mb-2">Giảm 10%</p>
             </div>
 
             {/* Card 3 */}
             <div className="electric-card">
-             <svg
+              <svg
                 className="electric-border-svg"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -263,12 +280,11 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
               <h4 className="text-xl font-semibold text-cyan-400 mb-3">
                 Các ưu đãi khác
               </h4>
-              <p className="text-gray-300 mb-2">
-                Ưu đãi với những hội viên đóng theo quý hoặc năm
-              </p>
-
+             <p className="text-gray-300 mb-4">
+  Dành cho hội viên đăng ký gói tập theo <span className="text-cyan-400">quý hoặc năm</span> – tiết kiệm hơn, lợi ích nhiều hơn.
+</p>
               <p className="text-gray-400 mb-2">
-                Đóng 3 tháng: <span className="text-cyan-400">giảm 5%</span>
+                Đóng 3 tháng: <span className="text-cyan-400">giảm 10%</span>
               </p>
               <p className="text-gray-400 mb-2">
                 Đóng 6 tháng: <span className="text-cyan-400">giảm 15%</span>
@@ -282,14 +298,23 @@ Mỗi góc tập đều được bố trí khoa học, giúp bạn tập luyện
 
         {/* Phần CTA – Kêu gọi hành động */}
         <section className="text-center py-16 px-6 sm:px-20 bg-gray-900">
-          <h3 data-aos="zoom-in-up" className="text-3xl font-bold text-cyan-400 mb-4">
+          <h3
+            data-aos="zoom-in-up"
+            className="text-3xl font-bold text-cyan-400 mb-4"
+          >
             Sẵn Sàng Bắt Đầu Hành Trình Của Bạn?
           </h3>
-          <p data-aos="fade-up" className="text-gray-300 max-w-2xl mx-auto mb-8">
+          <p
+            data-aos="fade-up"
+            className="text-gray-300 max-w-2xl mx-auto mb-8"
+          >
             Đăng ký ngay hôm nay để nhận tư vấn miễn phí và bắt đầu hành trình
             chinh phục mục tiêu thể hình của bạn.
           </p>
-          <button data-aos="fade-up" className="px-10 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-lg font-semibold rounded-lg shadow-md hover:from-cyan-400 hover:to-blue-400 hover:shadow-lg transition-all duration-300">
+          <button
+            data-aos="fade-up"
+            className="px-10 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-lg font-semibold rounded-lg shadow-md hover:from-cyan-400 hover:to-blue-400 hover:shadow-lg transition-all duration-300"
+          >
             Đăng Ký Ngay
           </button>
         </section>
